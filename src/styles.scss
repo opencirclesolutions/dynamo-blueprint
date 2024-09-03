@@ -1,0 +1,182 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "prime_ng";
+@import "variables";
+
+// Then import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    “Segoe UI”,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    “Apple Color Emoji”,
+    “Segoe UI Emoji”,
+    “Segoe UI Symbol”;
+}
+
+.p-calendar .p-datepicker {
+  min-width: auto !important;
+}
+
+.p-calendar {
+  width: 100%;
+}
+
+.p-datepicker .p-datepicker-header,
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-year,
+.p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month,
+.p-datepicker table td {
+  padding: 0.1em;
+}
+
+.p-datepicker table td > span {
+  width: 2rem;
+  height: 2rem;
+}
+
+.p-datatable {
+  font-size: 0.8rem;
+}
+
+.nested .p-dropdown {
+  min-width: 100%;
+  width: 100%;
+}
+
+.nested .p-inputtext {
+  width: 100%;
+}
+
+form .p-autocomplete {
+  width: 100%;
+}
+
+.nested .p-autocomplete {
+  width: 100%;
+}
+
+form .p-dropdown {
+  min-width: 100%;
+  width: 100%;
+}
+
+form .p-multiselect {
+  width: 100%;
+}
+
+form .p-chips {
+  width: 100%;
+}
+
+form .p-inputtext.p-chips-multiple-container {
+  width: 100%;
+}
+
+.nested .p-calendar {
+  width: 100%;
+}
+
+form .p-inputnumber {
+  width: 100%;
+}
+
+.ng-invalid.ng-touched {
+  border-color: red
+}
+
+.ng-invalid.ng-touched {
+  border-color: red
+}
+
+p-password.ng-invalid.ng-touched input {
+  border-color: red;
+}
+
+p-inputNumber.ng-invalid.ng-touched input {
+  border-color: red;
+}
+
+p-autocomplete.ng-invalid.ng-touched input {
+  border-color: red;
+}
+
+p-dropdown.ng-invalid.ng-touched .p-dropdown {
+  border-color: red;
+}
+
+.p-autocomplete input.p-element {
+  width: 100%;
+}
+
+.nested app-lookup-field .main {
+  width: 100%;
+}
+
+p-calendar > span {
+  width: 100%;
+}
+
+.exact {
+  width: 100%;
+}
+
+.exact span.p-inputnumber {
+  width: 100%;
+}
+
+td p-message .p-inline-message {
+  margin-top: 5px !important;
+}
+
+p-inputnumber {
+  height: 36px;
+  width: 100%;
+}
+
+.p-tooltip-text {
+  padding: 0px 5px 0px 5px;
+  border-radius: 3px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.p-dropdown-label {
+  padding: 6px;
+}
+
+.p-multiselect-label {
+  padding: 6px;
+}
+
+.p-inputtext {
+  padding: 6px;
+}
+
+@layer primeng {
+  .p-inline-message {
+    padding: 0.40rem 0.75rem;
+  }
+}
+
+.p-fileupload-choose {
+  padding: 5px;
+}
+
+#backend-unavailable-message {
+  border-radius: 5px ;
+}
+
+.btn-link {
+  font-size: 14px;
+  padding: 0px;
+}
+
+
