@@ -106,7 +106,7 @@ export class FileService {
      * Clear a file
      * @param entityId The ID of the entity
      * @param entityName The ID of the entity
-     * @param attributeName The ID of the atribute
+     * @param attributeName The ID of the attribute
      * @param observe set whether or not to return the data Observable as the body, response or events. defaults to returning the body.
      * @param reportProgress flag to report request and response progress.
      */
@@ -175,7 +175,7 @@ export class FileService {
             }
         }
 
-        let localVarPath = `/files/clear`;
+        let localVarPath = `/api/dynamo/file/clear`;
         return this.httpClient.request<any>('get', `${this.configuration.basePath}${localVarPath}`,
             {
                 context: localVarHttpContext,
@@ -193,7 +193,7 @@ export class FileService {
      * Download a file
      * @param entityId The ID of the entity
      * @param entityName The name of the entity
-     * @param attributeName The ID of the atribute
+     * @param attributeName The ID of the attribute
      * @param observe set whether or not to return the data Observable as the body, response or events. defaults to returning the body.
      * @param reportProgress flag to report request and response progress.
      */
@@ -252,7 +252,7 @@ export class FileService {
         }
 
 
-        let localVarPath = `/files/download`;
+        let localVarPath = `/api/dynamo/file/download`;
         return this.httpClient.request('get', `${this.configuration.basePath}${localVarPath}`,
             {
                 context: localVarHttpContext,
@@ -270,7 +270,7 @@ export class FileService {
      * Downloads a file as a Base64 string
      * @param entityId The ID of the entity
      * @param entityName The name of the entity
-     * @param attributeName The ID of the atribute
+     * @param attributeName The ID of the attribute
      * @param observe set whether or not to return the data Observable as the body, response or events. defaults to returning the body.
      * @param reportProgress flag to report request and response progress.
      */
@@ -340,7 +340,7 @@ export class FileService {
             }
         }
 
-        let localVarPath = `/files/downloadBase64`;
+        let localVarPath = `/api/dynamo/file/downloadBase64`;
         return this.httpClient.request<string>('get', `${this.configuration.basePath}${localVarPath}`,
             {
                 context: localVarHttpContext,
@@ -454,7 +454,7 @@ export class FileService {
             }
         }
 
-        let localVarPath = `/files/upload`;
+        let localVarPath = `/api/dynamo/file/upload`;
         return this.httpClient.request<any>('post', `${this.configuration.basePath}${localVarPath}`,
             {
                 context: localVarHttpContext,

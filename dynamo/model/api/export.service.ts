@@ -166,7 +166,7 @@ export class ExportService {
             localVarHeaders = localVarHeaders.set('Content-Type', httpContentTypeSelected);
         }
 
-        let localVarPath = `/export/csv/${this.configuration.encodeParam({name: "entityName", value: entityName, in: "path", style: "simple", explode: false, dataType: "string", dataFormat: undefined})}`;
+        let localVarPath = `/api/dynamo/export/csv/${this.configuration.encodeParam({name: "entityName", value: entityName, in: "path", style: "simple", explode: false, dataType: "string", dataFormat: undefined})}`;
         return this.httpClient.request('post', `${this.configuration.basePath}${localVarPath}`,
             {
                 context: localVarHttpContext,
@@ -256,7 +256,7 @@ export class ExportService {
             localVarHeaders = localVarHeaders.set('Content-Type', httpContentTypeSelected);
         }
 
-        let localVarPath = `/export/excel/${this.configuration.encodeParam({name: "entityName", value: entityName, in: "path", style: "simple", explode: false, dataType: "string", dataFormat: undefined})}`;
+        let localVarPath = `/api/dynamo/export/excel/${this.configuration.encodeParam({name: "entityName", value: entityName, in: "path", style: "simple", explode: false, dataType: "string", dataFormat: undefined})}`;
         return this.httpClient.request('post', `${this.configuration.basePath}${localVarPath}`,
             {
                 context: localVarHttpContext,
