@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { GenericSearchLayoutComponent } from 'dynamo-angular';
 
 @Component({
   selector: 'app-organization-search',
   templateUrl: './organization-search.component.html',
-  styleUrls: ['./organization-search.component.scss']
+  styleUrls: ['./organization-search.component.scss'],
+  standalone: true,
+  imports: [ GenericSearchLayoutComponent ],
 })
 export class OrganizationSearchComponent {
 

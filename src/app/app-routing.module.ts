@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { OrganizationSearchComponent } from './organization-search/organization-search.component';
 import { RouterModule, Routes } from '@angular/router';
-import { BackendAvailableGuard } from './shared/guards/backend-available-guard';
+import { BackendAvailableGuard } from 'dynamo-angular';
 
 const routes: Routes = [
   {
