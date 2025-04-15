@@ -14,6 +14,7 @@ export * from './instantRangeFilterModel';
 export * from './localDateTimeRangeFilterModel';
 export * from './localTime';
 export * from './notFilterModel';
+export * from './nullFilterModel';
 export * from './numberInFilterModel';
 export * from './numberRangeFilterModel';
 export * from './orFilterModel';

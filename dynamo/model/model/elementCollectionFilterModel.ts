@@ -11,11 +11,10 @@
 import { FilterModel } from './filterModel';
 
 
-export interface NumberRangeFilterModel extends FilterModel { 
-    from?: number;
-    to?: number;
+export interface ElementCollectionFilterModel extends FilterModel { 
+    values?: Array<object>;
 }
-export namespace NumberRangeFilterModel {
+export namespace ElementCollectionFilterModel {
 }
 
 
