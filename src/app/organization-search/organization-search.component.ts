@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GenericSearchLayoutComponent } from 'dynamo-angular';
+import { GenericSearchLayoutComponent } from '@open-circle-solutions/dynamo-angular';
 
 @Component({
   selector: 'app-organization-search',

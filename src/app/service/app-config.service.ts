@@ -1,7 +1,7 @@
 import {
   DynamoConfig,
   ExportServiceInterface
-} from 'dynamo-angular'
+} from '@open-circle-solutions/dynamo-angular'
 import {
   AutoFillService,
   CRUDService,
